@@ -1,0 +1,43 @@
+div{
+  padding:4px;
+  font-family: 'Open Sans';
+}
+
+header{
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+footer {
+  border-top: 2px solid #000;
+}
+label {
+  display: block;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px; /* Readable font size */
+  padding: 2px; /* Padding for better readability */
+}
+
+ /* Bottom Padding */
+.btn {
+  margin-top: 16px;
+}
+
+/* Button styles */
+#myDiv .btn-primary,
+.form-group .btn-primary{
+  background-color: #2767fc;
+  border: none;
+}
+
+/* Text Styles */
+form .field-type, 
+thead .data-type{
+  color: #aaa;
+  font-size: 0.8rem;
+  font-weight: normal;
+  margin-left: 2px;
+}
